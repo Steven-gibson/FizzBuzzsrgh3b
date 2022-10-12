@@ -1,12 +1,14 @@
-for i in range(0,101):
-    if i % 3 ==0:
-        print(Fizz)
+for i in range(1,101):
+    if i % 5==0 and i % 3 ==0:
+        print('fizzbuzz')
         continue
     elif i % 5 ==0:
-        print(Buzz)
+        print('Buzz')
         continue
-    elif i % 5 ==0 and i % 3 ==0:
-        print(FizzBuzz)
+    elif i % 3 == 0:
+        print('fizz')
         continue
     else:
         print(i)
+        
+    
