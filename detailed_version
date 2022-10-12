@@ -1,0 +1,21 @@
+print('Welcome to FizzBuzz 1 to 100')
+#Just a little intro into what is going on
+#used a function to minimize the work the computer has to do instead of it pulling individually
+def FizzBuzz():
+    #used I because it is is to use and can be changed easily
+    for i in range(1,101):
+        #did this order because of how I coded the first time around it didnt seem to affect anything doing it this way.
+        if i % 5==0 and i % 3 ==0:
+            print('fizzbuzz')
+            continue
+        elif i % 5 ==0:
+            print('Buzz')
+            continue
+        elif i % 3 == 0:
+            print('fizz')
+            continue
+        else:
+            print(i)
+        
+    #finally just called the function to get it to tun when opened.
+FizzBuzz()
